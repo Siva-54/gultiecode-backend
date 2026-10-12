@@ -1,0 +1,28 @@
+# Target & Build output
+target/
+*.jar
+*.war
+*.ear
+
+# Environment & Secrets
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# IDE Files
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+.vscode/
+
+# Logs
+logs/
+*.log
+
+# OS Junk
+.DS_Store
+Thumbs.db
